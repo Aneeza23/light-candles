@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Light Candles</title>
+  <style>
+    /* Basic reset */
+    * {
+      margin: 10;
+      padding: 20;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    /* Navigation styles */
+    nav {
+      background-color: #333;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: Black;
+      text-decoration: none;
+      padding: 15px 10px;
+      display: block;
+      transition: background-color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      background-color: #57595;
+      border-radius: 4px;
+    }
+
+    /* Sections */
+    section {
+      padding: 100px 20px; /* top padding to avoid nav overlap */
+      min-height: 100vh;
+      margin-top: 50px; /* space below fixed nav */
+    }
+
+    #home {
+      background-color: ##ffc3e8;
+    }
+
+    #products {
+      background-color: ##ffc3e8;
+    }
+
+    #contact {
+      background-color: ##ffc3e8;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <h1>Welcome to Light Candles</h1>
+    <p>We offer a wide range of candles, which includes all sort of scented candles.</p>
+  </section>
+
+  <section id="products">
+    <h1>Our Products</h1>
+    <p>Candles of all sort of shapes, sizes, scents.</p>
+  </section>
+
+  <section id="contact">
+    <h1>Contact Us</h1>
+    <p>Contact us on Instagram and Facebook.</p>
+  </section>
+
+</body>
+</html>
